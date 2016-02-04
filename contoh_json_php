@@ -1,0 +1,7 @@
+$json=file_get_contents('http://kapanguekawin.com/get.php');
+		$row=json_decode($json);
+		echo $json;
+		echo "
+			<br/>
+		";
+		echo $row->excuse;
